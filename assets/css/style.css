@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e0038;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #290049;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.site-name {
+    margin-bottom: -5px;
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #fffefe;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #ff4dff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hero {
+    position: relative;
+    text-align: left;
+    padding: 180px 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bg-video {
+    position: absolute;
+    opacity: 10%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-images .bg-image {
+    position: absolute;
+    width: 150px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.background-images .bg-image:nth-child(1) {
+    top: 10%;
+    left: 10%;
+}
+
+.background-images .bg-image:nth-child(2) {
+    top: 30%;
+    right: 10%;
+}
+
+.background-images .bg-image:nth-child(3) {
+    bottom: 20%;
+    left: 20%;
+}
+
+.background-images .bg-image:nth-child(4) {
+    bottom: 10%;
+    right: 20%;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 50%;
+    margin-left: 50px;
+}
+
+.intro {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+.subtitle {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #ff4dff;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin: 0.5em 0;
+    color: #ff4dff;
+}
+
+.hero p {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+
+.hero p a {
+    color: #ff4dff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.hero p a:hover {
+    color: #ff99ff;
+    border-bottom: 2px solid #ff4dff;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #290049;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #ff4dff, #ff99ff);
+}
+
+.gradient:hover {
+    background: linear-gradient(90deg, #ff99ff, #ff4dff);
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-media a img:hover {
+    transform: scale(1.2);
+}
+
+.hero-image {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    margin: 0
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.image-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 0, 128, 0.3);
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover::before {
+    transform: scale(1.5);
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.05);
+}
