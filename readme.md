@@ -49,7 +49,7 @@
 
 ## Overview
 
-Description of the project in details.
+This aim to showcase my personal website which serves as a showcase of my web development skills and a platform to share my background and accomplishments, as well as demonstrate my progress in the Web Design with Client Scripting subject.
 
 Guiding Question:
 - What is the project
@@ -112,3 +112,4 @@ WD-ProjectName
 | Icons | for Experiences Page | https://www.canva.com |
 | Icons | for Projects Page | https://www.canva.com |
 | Icons | for Contact Page | https://www.canva.com |
+| Video | for Contact Page | https://www.canva.com |
