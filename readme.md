@@ -49,13 +49,7 @@
 
 ## Overview
 
-This aim to showcase my personal website which serves as a showcase of my web development skills and a platform to share my background and accomplishments, as well as demonstrate my progress in the Web Design with Client Scripting subject.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This aim to showcase my personal website made with pure HTML, CSS, and Javascript which in turn serves as a showcase of my web development skills and serves as a platform to share my background and accomplishments, as well as demonstrate my progress in the Web Design with Client Scripting subject.
 
 ### Key Components
 - Interactive website highlighting my work experience, education, and skills
