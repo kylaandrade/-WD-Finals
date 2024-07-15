@@ -107,3 +107,8 @@ WD-ProjectName
 | Logo | Logo for Landing Page and Readme | https://www.canva.com |
 | Background Video | for Landing Page | https://www.canva.com |
 | Icons | for Landing Page | https://www.canva.com |
+| Background Video | for About Me Page | https://www.canva.com |
+| Icons | for About Me Page | https://www.canva.com |
+| Icons | for Experiences Page | https://www.canva.com |
+| Icons | for Projects Page | https://www.canva.com |
+| Icons | for Contact Page | https://www.canva.com |
