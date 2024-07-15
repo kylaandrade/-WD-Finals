@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Kyla Andrade</title>
+    <link rel="stylesheet" href="../contact-page/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../../assets/img/logo.png" alt="Logo">
+            <span class="site-name">Kyla Andrade</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../../index.html"><img src="../../assets/img/home-icon.png" alt="Home Icon"> Home</a></li>
+                <li><a href="../about-page/index.html"><img src="../../assets/img/about-icon.png" alt="About Icon"> About Me</a></li>
+                <li><a href="../experiences-page/index.html"><img src="../../assets/img/experiences-icon.png" alt="Experiences Icon"> Experiences</a></li>
+                <li><a href="../projects-page/index.html"><img src="../../assets/img/projects-icon.png" alt="Projects Icon"> Projects</a></li>
+                <li><a href="./index.html"><img src="../../assets/img/contact-icon.png" alt="Contact Icon"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <div class="video-section">
+                <video autoplay muted loop id="bg-video">
+                    <source src="../contact-page/assets/vid/bg-video.mp4" type="video/mp4">
+                </video>
+                <div class="video-content">
+                    <h1>Connect with Me!</h1>
+                    <p>Let's get started on your next project.</p>
+                    <div class="social-media">
+                        <a href="#"><img src="../../assets/img/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="../../assets/img/instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="../../assets/img/twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="../../assets/img/linkedin.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="form-section">
+                <h2>Send me a Message</h2>
+                <form id="contactForm" action="#" method="POST">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
